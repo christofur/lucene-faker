@@ -6,12 +6,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{989ED35E-99D2-46FD-86EF-F77E973A6979}</ProjectGuid>
     <OutputType>Exe</OutputType>
+<<<<<<< HEAD
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LuceneFaker.App</RootNamespace>
     <AssemblyName>LuceneFaker.App</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+=======
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+>>>>>>> 60f5c258ccc7d91fa8ba01df820e60170e802ade
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
