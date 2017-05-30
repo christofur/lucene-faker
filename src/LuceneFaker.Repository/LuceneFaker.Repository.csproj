@@ -2,10 +2,9 @@
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-<<<<<<< HEAD
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>08b79a33-9c12-47b3-88a2-45512693a4c3</ProjectGuid>
+    <ProjectGuid>02c91e3c-0151-4be9-ab64-04394a2a2542</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LuceneFaker.Repository</RootNamespace>
@@ -29,9 +28,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-=======
-    <TargetFramework>netstandard1.0</TargetFramework>
->>>>>>> 60f5c258ccc7d91fa8ba01df820e60170e802ade
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System"/>
