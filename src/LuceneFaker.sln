@@ -1,18 +1,56 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneFaker.App", "LuceneFaker.App\LuceneFaker.App.csproj", "{989ED35E-99D2-46FD-86EF-F77E973A6979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneFaker.Repository", "LuceneFaker.Repository\LuceneFaker.Repository.csproj", "{08B79A33-9C12-47B3-88A2-45512693A4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneFaker.Services", "LuceneFaker.Services\LuceneFaker.Services.csproj", "{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneFaker.Tests", "LuceneFaker.Tests\LuceneFaker.Tests.csproj", "{747C70C5-16A4-4E89-A79D-B1F8F0949C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneFaker.Models", "LuceneFaker.Models\LuceneFaker.Models.csproj", "{3B884C06-5050-4B8C-8DC1-62FD1C33EA89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{F52C594D-8823-44D8-8CCA-3A0A38CCFCEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{00471D27-FEF1-4C6F-B691-8650D79ADA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989ED35E-99D2-46FD-86EF-F77E973A6979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989ED35E-99D2-46FD-86EF-F77E973A6979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989ED35E-99D2-46FD-86EF-F77E973A6979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989ED35E-99D2-46FD-86EF-F77E973A6979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B79A33-9C12-47B3-88A2-45512693A4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B79A33-9C12-47B3-88A2-45512693A4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B79A33-9C12-47B3-88A2-45512693A4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B79A33-9C12-47B3-88A2-45512693A4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747C70C5-16A4-4E89-A79D-B1F8F0949C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747C70C5-16A4-4E89-A79D-B1F8F0949C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747C70C5-16A4-4E89-A79D-B1F8F0949C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747C70C5-16A4-4E89-A79D-B1F8F0949C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B884C06-5050-4B8C-8DC1-62FD1C33EA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B884C06-5050-4B8C-8DC1-62FD1C33EA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B884C06-5050-4B8C-8DC1-62FD1C33EA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B884C06-5050-4B8C-8DC1-62FD1C33EA89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08B79A33-9C12-47B3-88A2-45512693A4C3} = {F52C594D-8823-44D8-8CCA-3A0A38CCFCEA}
+		{96A6AB2D-9D31-49E9-958D-DD9F8B3E682E} = {F52C594D-8823-44D8-8CCA-3A0A38CCFCEA}
+		{747C70C5-16A4-4E89-A79D-B1F8F0949C4E} = {00471D27-FEF1-4C6F-B691-8650D79ADA3F}
+		{3B884C06-5050-4B8C-8DC1-62FD1C33EA89} = {F52C594D-8823-44D8-8CCA-3A0A38CCFCEA}
 	EndGlobalSection
 EndGlobal
