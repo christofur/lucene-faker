@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LuceneFaker.Repository
+namespace LuceneFaker.Repository.Interfaces
 {
-    public class Class1
+    interface IFakerSchemaWriter
     {
     }
 }
